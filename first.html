@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js Intro</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    {{ message }}
+    <div id= "first">1st number: <input type="text"></div>
+    <div id="second">2nd number: <input type="text"></div>
+    <div id="third">3rd number: <input type="text"></div>
+    <div>
+      <button v-on:click="computeSum()">
+      Compute sum
+      </button>
+    </div>
+    <p>The result is: </p>
+  </div>
+  <script src="first.js"></script>
+</body>
+</html>
